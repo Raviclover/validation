@@ -1,4 +1,4 @@
-﻿dsCoreModule.directive('validate', function ($translate, regexService) {
+﻿angular.module('validate',[]).directive('validate', function ($translate, regexService) {
     //TODO: Create checkbox logic for enroller/sponsor ids...
     //TODO: Create animation when continue button is clicked..
 
